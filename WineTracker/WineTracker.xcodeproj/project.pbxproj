@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BAE1600206C70A900B50BFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAE15FF206C70A900B50BFD /* AppDelegate.swift */; };
+		7BAE1605206C70A900B50BFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BAE1603206C70A900B50BFD /* Main.storyboard */; };
+		7BAE1608206C70A900B50BFD /* WineTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7BAE1606206C70A900B50BFD /* WineTracker.xcdatamodeld */; };
+		7BAE160A206C70A900B50BFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BAE1609206C70A900B50BFD /* Assets.xcassets */; };
+		7BAE160D206C70A900B50BFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BAE160B206C70A900B50BFD /* LaunchScreen.storyboard */; };
+		7BAE1619206C753000B50BFD /* WineTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAE1616206C753000B50BFD /* WineTableViewController.swift */; };
+		7BAE161B206C753000B50BFD /* WineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAE1618206C753000B50BFD /* WineViewController.swift */; };
+		7BAE1623206C759500B50BFD /* Wines.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7BAE1621206C759500B50BFD /* Wines.xcdatamodeld */; };
+		7BAE1625206C767C00B50BFD /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAE1624206C767C00B50BFD /* CoreDataStack.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7BAE15FC206C70A900B50BFD /* WineTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WineTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BAE15FF206C70A900B50BFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7BAE1604206C70A900B50BFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7BAE1607206C70A900B50BFD /* WineTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WineTracker.xcdatamodel; sourceTree = "<group>"; };
+		7BAE1609206C70A900B50BFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BAE160C206C70A900B50BFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7BAE160E206C70A900B50BFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BAE1616206C753000B50BFD /* WineTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WineTableViewController.swift; sourceTree = "<group>"; };
+		7BAE1618206C753000B50BFD /* WineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WineViewController.swift; sourceTree = "<group>"; };
+		7BAE1622206C759500B50BFD /* Wines.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Wines.xcdatamodel; sourceTree = "<group>"; };
+		7BAE1624206C767C00B50BFD /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BAE15F9206C70A900B50BFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BAE15F3206C70A900B50BFD = {
+			isa = PBXGroup;
+			children = (
+				7BAE15FE206C70A900B50BFD /* WineTracker */,
+				7BAE15FD206C70A900B50BFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BAE15FD206C70A900B50BFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BAE15FC206C70A900B50BFD /* WineTracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BAE15FE206C70A900B50BFD /* WineTracker */ = {
+			isa = PBXGroup;
+			children = (
+				7BAE161D206C757C00B50BFD /* CoreData */,
+				7BAE161C206C753B00B50BFD /* ViewControllers */,
+				7BAE15FF206C70A900B50BFD /* AppDelegate.swift */,
+				7BAE1603206C70A900B50BFD /* Main.storyboard */,
+				7BAE1609206C70A900B50BFD /* Assets.xcassets */,
+				7BAE160B206C70A900B50BFD /* LaunchScreen.storyboard */,
+				7BAE160E206C70A900B50BFD /* Info.plist */,
+				7BAE1606206C70A900B50BFD /* WineTracker.xcdatamodeld */,
+			);
+			path = WineTracker;
+			sourceTree = "<group>";
+		};
+		7BAE161C206C753B00B50BFD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7BAE1618206C753000B50BFD /* WineViewController.swift */,
+				7BAE1616206C753000B50BFD /* WineTableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7BAE161D206C757C00B50BFD /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				7BAE1621206C759500B50BFD /* Wines.xcdatamodeld */,
+				7BAE1624206C767C00B50BFD /* CoreDataStack.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BAE15FB206C70A900B50BFD /* WineTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BAE1611206C70A900B50BFD /* Build configuration list for PBXNativeTarget "WineTracker" */;
+			buildPhases = (
+				7BAE15F8206C70A900B50BFD /* Sources */,
+				7BAE15F9206C70A900B50BFD /* Frameworks */,
+				7BAE15FA206C70A900B50BFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WineTracker;
+			productName = WineTracker;
+			productReference = 7BAE15FC206C70A900B50BFD /* WineTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BAE15F4206C70A900B50BFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = comp3097;
+				TargetAttributes = {
+					7BAE15FB206C70A900B50BFD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7BAE15F7206C70A900B50BFD /* Build configuration list for PBXProject "WineTracker" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BAE15F3206C70A900B50BFD;
+			productRefGroup = 7BAE15FD206C70A900B50BFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BAE15FB206C70A900B50BFD /* WineTracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BAE15FA206C70A900B50BFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BAE160D206C70A900B50BFD /* LaunchScreen.storyboard in Resources */,
+				7BAE160A206C70A900B50BFD /* Assets.xcassets in Resources */,
+				7BAE1605206C70A900B50BFD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BAE15F8206C70A900B50BFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BAE1608206C70A900B50BFD /* WineTracker.xcdatamodeld in Sources */,
+				7BAE161B206C753000B50BFD /* WineViewController.swift in Sources */,
+				7BAE1600206C70A900B50BFD /* AppDelegate.swift in Sources */,
+				7BAE1623206C759500B50BFD /* Wines.xcdatamodeld in Sources */,
+				7BAE1619206C753000B50BFD /* WineTableViewController.swift in Sources */,
+				7BAE1625206C767C00B50BFD /* CoreDataStack.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7BAE1603206C70A900B50BFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BAE1604206C70A900B50BFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7BAE160B206C70A900B50BFD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BAE160C206C70A900B50BFD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7BAE160F206C70A900B50BFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7BAE1610206C70A900B50BFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BAE1612206C70A900B50BFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WineTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.comp3097.WineTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7BAE1613206C70A900B50BFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WineTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.comp3097.WineTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BAE15F7206C70A900B50BFD /* Build configuration list for PBXProject "WineTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BAE160F206C70A900B50BFD /* Debug */,
+				7BAE1610206C70A900B50BFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BAE1611206C70A900B50BFD /* Build configuration list for PBXNativeTarget "WineTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BAE1612206C70A900B50BFD /* Debug */,
+				7BAE1613206C70A900B50BFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7BAE1606206C70A900B50BFD /* WineTracker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7BAE1607206C70A900B50BFD /* WineTracker.xcdatamodel */,
+			);
+			currentVersion = 7BAE1607206C70A900B50BFD /* WineTracker.xcdatamodel */;
+			path = WineTracker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		7BAE1621206C759500B50BFD /* Wines.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7BAE1622206C759500B50BFD /* Wines.xcdatamodel */,
+			);
+			currentVersion = 7BAE1622206C759500B50BFD /* Wines.xcdatamodel */;
+			path = Wines.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7BAE15F4206C70A900B50BFD /* Project object */;
+}
